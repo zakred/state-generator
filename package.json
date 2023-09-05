@@ -1,0 +1,40 @@
+{
+  "name": "state-generator",
+  "version": "1.0.0",
+  "description": "State generator - generate actions, sagas, reducers",
+  "main": "index.js",
+  "files": [
+	"index.js",
+	"package.json",
+	"README.md",
+	"LICENSE"
+],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,json,md,html,css,less,scss}\"",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakred/state-generator"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "state",
+    "generator",
+    "reducer",
+    "action",
+    "saga",
+    "fetch",
+    "store"
+  ],
+  "author": "Eduardo D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakred/state-generator/issues"
+  },
+  "homepage": "https://github.com/zakred/state-generator",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
